@@ -7,7 +7,7 @@ Description: Records all Contact Form 7 entries in the database.
 Author: Naji Amer - @n-for-all
 Author URI: http://ajaxy.org/
 Text Domain: cf7-entiries
-Version: 1.0.0
+Version: 1.0.1
 */
 
 /* Not tested with older versions of wpcf7, lower the version number at your own risk */
