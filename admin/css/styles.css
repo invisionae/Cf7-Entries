@@ -1,0 +1,71 @@
+.wpcf7-entry-meta-table.widefat {
+    border: 0;
+}
+
+.wpcf7-entry-meta-table th {
+    font-size: 13px;
+}
+
+.wpcf7-logger-table.widefat tr:nth-child(even), .wpcf7-entry-meta-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.wpcf7-entry-meta-table input, .wpcf7-entry-meta-table textarea, .wpcf7-entry-meta-table select {
+    width: 100%;
+}
+
+.wpcf7-entry-meta-table input[type="checkbox"], .wpcf7-entry-meta-table input[type="radio"], .wpcf7-entry-meta-table input[type="file"] {
+    width: auto;
+}
+
+.wpcf7-entry-meta-repeater-field .inner>label {
+    margin-right: 10px;
+}
+
+.wpcf7-entry-meta-repeater-field .inner {
+    margin-top: 10px;
+}
+
+.wpcf7-entry-meta-repeater-field {
+    padding: 15px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.wcf7-column-field {
+    background: #fff;
+    padding: 0px 0 0 0px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 1px 2px 1px 0;
+    border: 1px solid #eee;
+    color: #d2d2d2;
+    position: relative;
+    float: left;
+}
+
+.wcf7-column-field:hover>.wcf7-column-field-name {
+    display: inline-block;
+}
+
+.wcf7-column-field>.wcf7-column-field-name {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    white-space: nowrap;
+    padding: 0px 5px;
+    background: #0073aa;
+    margin-right: 1px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.wcf7-column-field>.wcf7-column-field-value {
+    display: inline-block;
+    padding: 3px 5px 3px 5px;
+    color: #333;
+    line-height: 14px;
+    max-height: 80px;
+    overflow: auto;
+    float: left;
+}
